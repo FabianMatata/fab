@@ -10,7 +10,7 @@ import { User } from '../Classes/user';
 })
 export class SearchService {
   users!: User;
-  githubusername:string="michael-kip";
+  githubusername:string="FabianMatata";
   repoName!: string;
   srepoos: any;
 

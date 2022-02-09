@@ -8,12 +8,12 @@ import { SearchService } from '../Services/search.service';
 })
 export class UserComponent implements OnInit {
   
-  public myGitName = 'michael-kip';
+  public myGitName = 'FabianMatata';
   public githubUser!: string;
     public users!:any;
   user: any;
 
-  username: string = 'michael-kip'
+  username: string = 'FabianMatata'
     
   constructor(private myService:SearchService) { }
 
